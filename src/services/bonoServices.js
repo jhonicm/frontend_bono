@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/bonos';
+// Reemplaza con la URL de tu backend desplegado en Vercel
+const API_URL = 'https://backend-bono.vercel.app/api/bonos';
 
 export const getBonos = async () => {
     const response = await axios.get(API_URL);
